@@ -45,6 +45,15 @@ header {
   font-weight: bold;
 }
 
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#menu_burguer {
+  display: none;
+}
+
 /* MAIN */
 
 main {
@@ -104,3 +113,19 @@ footer {
 }
 
 /* MEDIA QUERIES (RESPONSIVE) */
+
+@media only screen and (max-width: 838px) {
+  #header__container {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 598px) {
+  .navbar li {
+    display: none;
+  }
+
+  #menu_burguer {
+    display: block;
+  }
+}
