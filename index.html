@@ -7,9 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/cb51e3ce8a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <title>AENIMA Front-end prueba</title>
   </head>
@@ -19,7 +24,7 @@
         <div class="logo">
           <img src="./assets/logo/logo_01.png" alt="logo header" />
         </div>
-        <nav class="navbar">
+        <nav class="navb">
           <ul>
             <li><a href="#">home</a></li>
             <li><a href="#">tendencias</a></li>
@@ -35,12 +40,30 @@
         </nav>
       </div>
     </header>
+
+    <!-- Banner Image  -->
+    <div class="banner-image w-100 vh-100 d-flex align-items-center">
+      <div class="content">
+        <h1 id="titulo" class="text-white">
+          <i class="fas fa-map-marker-alt"></i>AMERICA DEL SUR
+        </h1>
+        <h2 id="subtitulo" class="text-white">
+          Lugares maravillosos por America del Sur
+        </h2>
+        <p id="parrafo_header" class="text-white">
+          Estos son algunos lugares que elijen la mayoria de los turistas que
+          visitan America del Sur
+        </p>
+      </div>
+    </div>
+
     <main>
       <div id="main__container">
         <div class="header_fix"></div>
         <h1>XMAS!</h1>
       </div>
     </main>
+
     <footer>
       <div id="footer__container">
         <div class="logo2">
@@ -56,5 +79,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- Scripts JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

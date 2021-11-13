@@ -10,4 +10,5 @@ Proyecto creado por Leandro Berne para la Prueba Front-end de AENIMA.
 - CSS
 - Flexbox
 - Grid
+- Bootstrap
 - Fontawesome
