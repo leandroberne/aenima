@@ -160,6 +160,47 @@ footer {
   height: 16px;
 }
 
+/* SIDEBAR */
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  height: 133.7% !important;
+  background-color: #151719;
+  right: -200px; /* creo que viene por aca la cosa para dejarlo a la derecha RIGHT */
+  transition: all 500ms linear;
+}
+
+#sidebar.active {
+  right: 0; /* creo que viene por aca la cosa para dejarlo a la derecha RIGHT */
+}
+
+#sidebar ul {
+  list-style: none;
+}
+
+#sidebar ul li {
+  color: rgba(230, 230, 230, 0.9);
+  text-align: center;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+}
+
+#sidebar .toggle-btn {
+  position: absolute;
+  right: 230px; /* creo que viene por aca la cosa para dejarlo a la derecha RIGHT */
+  top: 20px;
+  cursor: pointer;
+}
+
+#sidebar .toggle-btn span {
+  display: block;
+  width: 40px;
+  text-align: center;
+  font-size: 30px;
+  border: 1px solid #000;
+}
+
 /* MEDIA QUERIES (RESPONSIVE) */
 
 @media only screen and (max-width: 838px) {
