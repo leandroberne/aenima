@@ -351,7 +351,15 @@ footer.inactive {
 
 /* MEDIA QUERIES (RESPONSIVE) */
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1460px) {
+  #blog__container {
+    width: 100%;
+  }
+
+  #blog__container .titulo_seccion {
+    margin-left: 12%;
+  }
+
   #blog__card__container {
     width: 85%;
     grid-template-columns: 65% 25%;
@@ -404,95 +412,50 @@ footer.inactive {
 }
 
 @media only screen and (max-width: 738px) {
-  /* punto clave */
-  .card_blog_big {
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    position: relative;
-    display: inline-block;
-    margin-bottom: 50px;
-  }
-
   .card_blog_big img {
     max-width: 600px;
   }
 
-  .card_blog_big .seccion {
-    font-weight: 800;
-    position: absolute;
-    top: 40px;
-    left: 40px;
-  }
-
   .card_blog_big .titulo {
-    font-size: 1.5rem;
-    font-weight: 800;
-    position: absolute;
     top: 200px;
     left: 40px;
   }
 
   .card_blog_big .subtitulo {
-    font-size: 1rem;
-    font-weight: 600;
-    position: absolute;
     top: 240px;
     left: 40px;
   }
 
   .card_blog_big .tiempo {
-    color: #cbd0d3;
-    font-size: 0.83rem;
-    font-weight: 600;
-    position: absolute;
     top: 300px;
     left: 40px;
   }
 }
 
 @media only screen and (max-width: 619px) {
-  .card_blog_big {
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    position: relative;
-    display: inline-block;
-    margin-bottom: 50px;
-  }
-
   .card_blog_big img {
     max-width: 460px;
   }
 
   .card_blog_big .seccion {
-    font-weight: 800;
-    position: absolute;
     top: 20px;
     left: 30px;
   }
 
   .card_blog_big .titulo {
     font-size: 1.2rem;
-    font-weight: 800;
-    position: absolute;
     top: 150px;
     left: 30px;
   }
 
   .card_blog_big .subtitulo {
     font-size: 0.8rem;
-    font-weight: 600;
-    position: absolute;
     top: 180px;
     left: 30px;
   }
 
   .card_blog_big .tiempo {
-    color: #cbd0d3;
     font-size: 0.6rem;
-    font-weight: 600;
-    position: absolute;
     top: 225px;
     left: 30px;
   }
@@ -505,5 +468,9 @@ footer.inactive {
 
   #menu_burguer {
     display: block;
+  }
+
+  #blog__container .titulo_seccion {
+    margin-left: 7%;
   }
 }
