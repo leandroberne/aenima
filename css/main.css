@@ -61,7 +61,15 @@ header.inactive {
 
 .navb ul li a {
   text-decoration: none;
-  color: black;
+  color: #2a3037;
+}
+
+.navb ul li a .active {
+  color: #2a3037 !important;
+}
+
+.navb ul li a .inactive {
+  color: #cbd0d3 !important;
 }
 
 #menu_burguer {
@@ -339,6 +347,16 @@ footer.inactive {
   text-transform: uppercase;
   font-size: larger;
   font-weight: 600;
+}
+
+#sidebar ul li a {
+  font-size: larger;
+  font-weight: 600;
+  color: #2a3037;
+  text-align: left;
+  padding: 15px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .btnClose {
